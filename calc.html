@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wages Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="he"><h1>Wages calculator</h1></div>
+    <hr>
+    <div class="la">
+    <label for="da">Date</label>
+    <input type="text" id="da" placeholder="yyyy-mm-dd"> <br>
+    <label for="amt">Enter the Amount</label>
+    <input type="number" id="amt" required placeholder="Amount per Hour">
+    </div>
+    <!-- <form > -->
+        <div class="container">
+            <div>
+                <label>Monday</label>
+                <input type="time" id="s1" name="ar1[]" placeholder="Start Time" required>
+                <input type="time" id="e1" name="ar2[]" placeholder="EndTime" required>
+            </div>
+            <div>
+                <label>Tuesday</label>
+                <input type="time" id="s2" name="ar1[]" placeholder="Start Time" >
+                <input type="time" id="e2" name="ar2[]" placeholder="EndTime" >
+            </div>
+            <div>
+                <label>Wednesday</label>
+                <input type="time" id="s3" name="ar1[]" placeholder="Start Time">
+                <input type="time" id="e3" name="ar2[]" placeholder="EndTime" >
+            </div>
+            <div>
+                <label>Thursday</label>
+                <input type="time" id="s4" name="ar1[]" placeholder="Start Time" >
+                <input type="time" id="e4" name="ar2[]" placeholder="EndTime" >
+            </div>
+            <div>
+                <label>Friday</label>
+                <input type="time" id="s5" name="ar1[]" placeholder="Start Time" >
+                <input type="time" id="e5" name="ar2[]" placeholder="EndTime" >
+            </div>
+            <div>
+                <label>Saturday</label>
+                <input type="time" id="s6" name="ar1[]" placeholder="Start Time" >
+                <input type="time" id="e6" name="ar2[]" placeholder="EndTime" >
+            </div>
+            <div>
+                <label>Sunday</label>
+                <input type="time" id="s7" name="ar1[]" placeholder="Start Time" >
+                <input type="time" id="e7" name="ar2[]" placeholder="EndTime" >
+            </div>
+            <br><button id="bu">Submit</button>
+            <div id="out">0</div>
+
+    </div>
+    
+    <!-- </form> -->
+    <script src="cal.js"></script>
+</body>
+</html>
